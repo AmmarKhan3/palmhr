@@ -1,0 +1,211 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+@media screen and (min-width:2000px) {
+  .feature3-background-hero{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+@media screen and (min-width: 992px) {
+  .feature3-main-title img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .feature3-main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #1a938a;
+    width: 448px;
+  }
+  .feature3-main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    width: 489px;
+  }
+  .feature3-first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .feature3-title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: 24px 0px;
+  }
+  .feature3-second-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+  }
+  .feature3-hero-firstbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 216px;
+    height: 48px;
+    background: #ec9a2b;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 24px;
+  }
+  .feature3-hero-firstbtn:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .feature3-position-hero {
+    padding-left: 128px;
+    margin-top: 100px;
+  }
+
+  .feature3-desktop-img {
+    width: 98%;
+  }
+  .feature3-mobile-img{
+    display: none;
+  }
+  .feature3-heroSection {
+    background: #fcf9f3;
+    padding-top: 40px ;
+    padding-bottom: 85px ;
+    /* height: 100vh; */
+  }
+  .feature3-hero-firstbtn1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .feature3-main-title img {
+    width: 24px;
+    height: 24px;
+  }
+  .feature3-leftmargin-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature3-main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #1a938a;
+  }
+  .feature3-main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+  }
+  .feature3-first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .feature3-title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: 24px 0px;
+    width: 340px;
+  }
+  .feature3-second-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    width: 227px;
+  }
+  .feature3-hero-firstbtn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 216px;
+    height: 48px;
+    background: #ec9a2b;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+    margin-bottom: 49px;
+  }
+  .feature3-hero-firstbtn1:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .feature3-hero-firstbtn{
+    display: none;
+  }
+  .feature3-position-hero {
+    margin-top: 10px;
+  }
+
+
+  .feature3-desktop-img {
+    display: none;
+  }
+  .feature3-mobile-img{
+    width: 100%;
+  }
+  .feature3-heroSection {
+    background: #fcf9f3;
+    padding-top: 20px ;
+    /* height: 100vh; */
+  }
+}

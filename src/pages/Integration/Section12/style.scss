@@ -1,0 +1,69 @@
+@media screen and (min-width: 992px) {
+  .feature5-12title-heartbeat {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135.5%;
+    color: #043344;
+  }
+  .feature5-12descrypt-heartbeat {
+    width: 1039px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180.5%;
+    color: #043344;
+  }
+  .feature5-12heartbeat{
+    background-image: url("../../../images/feature5-heartbeat-background.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    margin-top: -80px;
+    margin-bottom: -100px;
+    padding-left: 150px;
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .feature5-12title-heartbeat {
+    width: 295px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    text-align: center;
+    color: #043344;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .feature5-12descrypt-heartbeat {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180.5%;
+    text-align: center;
+    color: #043344;
+    margin-top: 32px;
+    margin-bottom: 113px;
+  }
+  .feature5-12heartbeat{
+    background-image: url("../../../images/feature5-heartbeat-mbl.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 98px;
+    background-position: center;
+   
+}
+}

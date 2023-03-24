@@ -1,0 +1,217 @@
+
+@media screen and (min-width:'2000px') {
+  .right-tag-img,
+  .seven-left-img,
+  .eight-right-tag-img {
+    width: auto !important;
+  }
+  .form-tag img{
+    width: auto !important;
+  }
+  
+}
+
+
+
+.six-container {
+  display: flex;
+  justify-content: center;
+  padding-right: 42px;
+  padding-top: 2px;
+}
+
+.six-list {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.six-list li {
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  color: #688192;
+  padding: 0;
+font-family: 'Satoshi';
+
+}
+
+.sectionsix-main {
+  margin-top: 80px !important;
+}
+.left-head-one {
+  font-family: "Satoshi" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a938a;
+  letter-spacing: 0.365em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionsix-main p {
+  margin: 0;
+}
+.title-tag {
+  font-family: "Satoshi" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #043344;
+  /* align-items: center; */
+}
+.title-tag-bold {
+  font-weight: 700;
+}
+.title-tag-dot {
+  color: #1a938a;
+}
+.title-tag-size {
+  color: #1a938a;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.left-head-one-tag {
+  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 17px;
+
+}
+.left-head-two {
+  font-family: "Satoshi" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #043344;
+  text-align: justify;
+  display: inline-block;
+}
+.left-tag {
+  padding-top: 8%;
+}
+.left-tag p {
+  margin: 0px;
+}
+
+.teamicon {
+  padding-right: 2%;
+}
+.left-tag-btn {
+  width: 225px;
+height: 47.96px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 2px solid #ec9a2b;
+  border-radius: 4px;
+  color: #ec9a2b;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-right: 48px;
+}
+.left-tag-btn:hover {
+  cursor: pointer;
+}
+
+.right-tag-img {
+  width: 93%;
+}
+.respons-img {
+  display: none;
+}
+.to-hide{
+  display: none;
+}
+.to-show{
+display: flex;
+justify-content: center;
+}
+.left-head-two-tag br {
+  display: flex;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 992px) {
+  .left-tag-btn {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-right: 0;
+    
+  }
+  .to-show{
+    display: none;
+    }
+  .to-hide{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left-head-two {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Satoshi" !important;
+    font-style: normal;
+    text-align: center;
+  }
+  .left-head-one {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .left-head-two-tag br {
+    display: none;
+  }
+  .six-container {
+    padding-right: 0;
+  }
+  .respons-img {
+    display: block;
+  }
+  .respons2-img {
+    display: none;
+  }
+  .right-tag-img {
+    width: 90%;
+  }
+  .title-tag {
+    
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .title-tag-size {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sectionsix-main {
+    margin-top: 55px !important;
+    display: block !important;
+  }
+  .to-hide{
+    display: flex;
+    justify-content: center;
+  }
+  .to-show{
+    display: none;
+    }
+  .title-tag {
+    font-size: 24px;
+    /* align-items: center; */
+  }
+  .title-tag-size {
+    font-size: 35px;
+  }
+
+  .left-head-one-tag {
+    margin-bottom: 15px;
+  }
+ .ant-row{
+    /* display: contents !important; */
+  }
+}

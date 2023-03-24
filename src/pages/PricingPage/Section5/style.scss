@@ -1,0 +1,197 @@
+@media screen and (min-width: 993px) {
+  .pricing-5r1 {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+  .pricing-5r2 {
+    font-style: normal;
+    font-size: 32px;
+    line-height: 133.3%;
+    color: #043344;
+
+    width: 373px;
+
+    font-family: "Satoshi";
+    font-weight: 700;
+  }
+  .pricing-5r3 {
+    width: 450px;
+    font-style: normal;
+    font-family: "Satoshi";
+    font-size: 18px;
+    line-height: 125%;
+    color: #205260;
+  }
+  .pricing-5r33 {
+    width: 450px;
+    font-style: normal;
+    font-family: "Satoshi";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: #205260;
+  }
+  .pricing-5st-css {
+    font-style: normal;
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    color: #205260;
+  }
+  .pricing-5r4 {
+    width: 174px;
+    border: 1px solid #1a938a;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Satoshi";
+    font-size: 18px;
+    color: #bec9d0;
+  }
+  .pricing-5r4:focus::placeholder {
+    color: #043344;
+  }
+  .pricing-5r5:focus::placeholder {
+    color: #043344;
+  }
+  .pricing-5r5 {
+    width: 100%;
+    border: 1px solid #1a938a;
+    border-radius: 4px;
+    font-style: normal;
+    font-family: "Satoshi";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #bec9d0;
+    height: 48px;
+  }
+  .ant-form-item-explain-error {
+    padding-left: 30px;
+  }
+  .pricing-5r6 {
+    width: 390px;
+    border-radius: 4px;
+  }
+
+  .pricing-5zain-1 {
+    background: #ec9a2b;
+    border-radius: 4px;
+    height: 40px;
+  }
+  .pricing-5r7 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  .pricing-5mobile {
+    display: none;
+  }
+  .pricing-5r8 {
+    background: #e9edef;
+    border-radius: 24px;
+    padding: 40px;
+    height: 488px;
+    margin-right: 40px;
+  }
+  .pricing-5r9 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    /* padding-top: 30px; */
+    // padding-left: 90px;
+    // padding-right: 90px;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .pricing-5r10 {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .pricing-5mr-0 {
+    margin-left: 8px;
+  }
+  .pricing-5mobile {
+    background-color: #e9edef;
+    padding-left: 18px;
+    padding-top: 40px;
+    padding-right: 18px;
+    padding-bottom: 40px;
+  }
+  .pricing-5r7 {
+    font-family: "Satoshi";
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .pricing-5zain-1 {
+    background: #043344;
+    border-radius: 4px;
+    height: 48px;
+    color: #ffffff;
+  }
+  .pricing-5r1 {
+    padding-left: 0px;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pricing-5desktop {
+    display: none;
+  }
+  .pricing-5r2 {
+    width: 95%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133.3%;
+    color: #043344;
+  }
+  .pricing-5Empower p {
+    padding-left: 16px;
+  }
+  .pricing-5r3 {
+    width: 92%;
+    font-size: 16px;
+    /*  */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    color: #043344;
+  }
+  .pricing-5r33 {
+    display: none;
+  }
+  .pricing-5r4 {
+    width: 150px;
+    height: 48px;
+  }
+  .pricing-5r5 {
+    width: 342px;
+    height: 48px;
+  }
+  .pricing-5r05 {
+    width: 342px;
+    height: 48px;
+  }
+
+  .pricing-5r8 {
+    background: #093043;
+    border-radius: 10px;
+  }
+  .pricing-5r6 {
+    width: 100%;
+  }
+}

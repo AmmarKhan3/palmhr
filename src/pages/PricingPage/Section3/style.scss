@@ -1,0 +1,83 @@
+@media screen and (min-width: 993px) {
+  .pricing-3Main{
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .pricing-3image-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pricing-3Outer{
+    background-color: #FFFFFF;
+    // height: 610px;
+  }
+  .pricing-3sec5img-size {
+    width: 72%;
+    margin-bottom: 80px;
+  }
+  .pricing-3sec5img-size-mbl{
+    display: none;
+  }
+  .pricing-3heading{
+    width: 495px;
+  
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    // line-height: 126.69%;
+    /* identical to box height, or 76px */
+    
+    text-align: center;
+    
+    /* Brand/Dark */
+    
+    color: #043344;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pricing-3sec5img-size {
+    display: none;
+
+  }
+  .pricing-3Outer{
+    background-color: #FFFFFF;
+    // height: 610px;
+  }
+  .pricing-3sec5img-size-mbl{
+    // display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+  }
+  .pricing-3image-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 80px;
+    /* margin-bottom: 10px; */
+    flex-direction: column;
+  }
+  .pricing-3heading{
+width: 286px;
+
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 135.5%;
+/* or 43px */
+
+text-align: center;
+
+/* Brand/Dark */
+
+color: #043344;
+  }
+}

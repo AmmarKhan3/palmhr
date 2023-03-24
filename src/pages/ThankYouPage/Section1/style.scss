@@ -1,0 +1,222 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 993px) {
+  .thankYou-home-hero-secondbtn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #1a938a;
+    border: 2px solid #1a938a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 294px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: transparent;
+  }
+  .thankYou-home-hero-secondbtn:hover {
+    color: #ffffff !important;
+    border-color: #1a938a !important;
+    background-color: #1a938a;
+  }
+  .thankYou-1main-title img {
+    width: 24px;
+    height: 24px;
+  }
+.thankYou-1background-hero{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+  .thankYou-1main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #1a938a;
+    width: 448px;
+  }
+  .thankYou-1main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    width: 489px;
+  }
+  .thankYou-1first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .thankYou-1title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: 24px 0px;
+    width: 46%;
+  }
+  .thankYou-1second-line {
+    width: 329px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93A5B1;
+  }
+  .thankYou-1hero-firstbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 294px;
+    height: 48px;
+    background: #EC9A2B;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 24px;
+    margin-bottom: 30px;
+  }
+  .thankYou-1hero-firstbtn:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .thankYou-1desktop-img {
+    width: 100%;
+  }
+  .thankYou-1mobile-img{
+    display: none;
+  }
+  .thankYou-1heroSection {
+    background: #fcf9f3;
+    padding-bottom: 50px !important;
+  }
+  .thankYou-1hero-firstbtn1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-title img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .thankYou-1main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #1a938a;
+  }
+  .thankYou-1main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+  }
+  .thankYou-1first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .thankYou-1title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: 24px 0px;
+    width: 340px;
+  }
+  .thankYou-1second-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    width: 227px;
+  }
+  .thankYou-1hero-firstbtn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 216px;
+    height: 48px;
+    background: #ec9a2b;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+    margin-bottom: 49px;
+    margin-top: 30px;
+  }
+  .thankYou-1hero-firstbtn1:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .thankYou-1hero-firstbtn{
+    display: none;
+  }
+
+
+
+  .thankYou-1desktop-img {
+    display: none;
+  }
+  .thankYou-1mobile-img{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .thankYou-1heroSection {
+    background: #fcf9f3;
+    padding-top: 20px ;
+    /* height: 100vh; */
+  }
+}

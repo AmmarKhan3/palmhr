@@ -1,0 +1,237 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 993px) {
+  .mediaKit-3main-title img {
+    width: 24px;
+    height: 24px;
+  }
+  .mediaKit-3heroSection-img {
+    padding-left: 0%;
+    /* background-color: #1a938a; */
+  }
+  .mediaKit-3background-hero{
+    padding-top: 40px;
+
+  }
+  .mediaKit-3main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #1a938a;
+    width: 448px;
+  }
+  .mediaKit-3main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    width: 489px;
+  }
+  .mediaKit-3first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .mediaKit-3title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 135.5%;
+    margin: 24px 0px;
+    width: 46%;
+color: #284B64;
+  }
+  .mediaKit-3second-line {
+    /* font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    width: 60%; */
+
+    width: 332px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.19%;
+    /* or 29px */
+    
+    
+    /* Brand/Secondary */
+    
+    color: #205260;
+  }
+  .mediaKit-3hero-firstbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 216px;
+    height: 48px;
+    background: #ec9a2b;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 24px;
+  }
+  .mediaKit-3hero-firstbtn:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .mediaKit-3position-hero {
+    padding-left: 128px;
+    margin-top: 0px;
+    padding-top: 5%;
+  }
+
+  .mediaKit-3desktop-img {
+    width: 80%;
+  }
+  .mediaKit-3mobile-img {
+    display: none;
+  }
+  .mediaKit-3heroSection {
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 150px !important;
+    /* height: 100vh; */
+  }
+  .mediaKit-3hero-firstbtn1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-title img {
+    width: 24px;
+    height: 24px;
+  }
+  .mediaKit-3leftmargin-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mediaKit-3main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #1a938a;
+  }
+  .mediaKit-3main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+  }
+  .mediaKit-3first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .mediaKit-3title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: 24px 0px;
+    width: 340px;
+  }
+  .mediaKit-3second-line {
+    width: 332px;
+    height: 232px;
+    left: 148px;
+    top: 1345px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.19%;
+    /* or 29px */
+
+    /* Brand/Secondary */
+
+    color: #205260;
+  }
+  .mediaKit-3hero-firstbtn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 216px;
+    height: 48px;
+    background: #ec9a2b;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+    margin-bottom: 49px;
+    margin-top: 30px;
+  }
+  .mediaKit-3hero-firstbtn1:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .mediaKit-3hero-firstbtn {
+    display: none;
+  }
+  .mediaKit-3position-hero {
+    margin-top: 10px;
+  }
+
+  .mediaKit-3desktop-img {
+    display: none;
+  }
+  .mediaKit-3mobile-img {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .mediaKit-3heroSection {
+    background: #fcf9f3;
+    padding-top: 20px;
+    /* height: 100vh; */
+  }
+}

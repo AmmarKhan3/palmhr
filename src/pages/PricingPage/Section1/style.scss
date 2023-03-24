@@ -1,0 +1,60 @@
+
+@media screen and (min-width: 993px) {
+  .pricing-1heroSection {
+    background-color: #fcf9f3;
+  }
+  .pricing-1desktop {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .pricing-1title-hero {
+    width: 489px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 135.5%;
+
+    color: #043344;
+  }
+
+  .pricing-1position-hero {
+    padding-left: 128px;
+  }
+
+  .pricing-1desktop-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pricing-1position-hero {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .pricing-1title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    text-align: center;
+    color: #043344;
+  }
+
+  .pricing-1desktop {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;  }
+  .pricing-1desktop-img {
+    width: 100%;
+  }
+  .pricing-1heroSection {
+    background-color: #fcf9f3;
+  }
+}

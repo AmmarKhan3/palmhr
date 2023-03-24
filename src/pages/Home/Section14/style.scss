@@ -1,0 +1,139 @@
+.seven-container {
+  margin-top: 3px;
+  display: flex;
+
+  padding-right: 20%;
+}
+.seven-list {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.seven-list li {
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  color: #688192;
+  padding: 0;
+font-family: 'Satoshi';
+
+}
+.seven-icon {
+  padding-right: 2%;
+}
+.seven-right-tag-one {
+  display: flex;
+  align-items: center;
+  padding-bottom: 17px;
+}
+.seven-left-img {
+  width: 90%;
+}
+.seven-right {
+  text-align: justify;
+}
+.seven-right-title {
+  font-family: "Satoshi";
+  font-style: normal;
+  color: #1a938a;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.365em;
+}
+.seven-right p {
+  margin: 0;
+}
+.seven-right-head-one {
+  font-family: "Satoshi" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #043344;
+}
+.dot-color {
+  color: #1a938a;
+}
+
+.seven-right-tag-btn {
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 2px solid #ec9a2b;
+  border-radius: 4px;
+  color: #ec9a2b;
+  font-weight: 700;
+  width: 225px;
+  height: 48px;
+}
+.seven-right-tag-btn:hover {
+  cursor: pointer;
+}
+.responsive-two {
+  display: none;
+}
+
+.seven-right-tag-btn {
+  margin-left: 0%;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .seven-container {
+    padding-right: 0%;
+    justify-content: center;
+  }
+
+  .seven-right-tag-one {
+    justify-content: center;
+  }
+  .seven-right-title {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seven-right-tag-btn {
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  .seven-div {
+    margin-top: 15px;
+  }
+
+  .seven-right {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .responsive-one {
+    display: none;
+  }
+  .responsive-two {
+    display: block;
+    margin-left: -8%;
+  }
+  .seven-left-img {
+    width: 90%;
+  }
+  .seven-right-head-one {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .seven-right-head-one {
+    font-size: 28px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .responsive-two {
+    margin-left: 0%;
+  }
+}

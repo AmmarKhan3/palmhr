@@ -1,0 +1,212 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+@media screen and (min-width:2000px) {
+  .faq-background-hero{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+@media screen and (min-width: 992px) {
+  .faq-main-title img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .faq-main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.365em;
+    text-transform: uppercase;
+    color: #1a938a;
+    width: 448px;
+  }
+  .faq-main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    width: 489px;
+  }
+  .faq-first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .faq-title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: 24px 0px;
+    width: 65%;
+
+  }
+  .faq-second-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+  }
+  .faq-hero-firstbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 216px;
+    height: 48px;
+    background: #ec9a2b;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 24px;
+  }
+  .faq-hero-firstbtn:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .faq-position-hero {
+    padding-left: 128px;
+    margin-top: 100px;
+  }
+
+  .faq-desktop-img {
+    width: 100%;
+  }
+  .faq-mobile-img{
+    display: none;
+  }
+  .faq-heroSection {
+    background: #fcf9f3;
+    padding-top: 40px ;
+    /* padding-bottom: 85px ; */
+    /* height: 100vh; */
+  }
+  .faq-hero-firstbtn1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .faq-main-title img {
+    width: 24px;
+    height: 24px;
+  }
+  .faq-leftmargin-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .faq-main-title p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135.5%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1a938a;
+  }
+  .faq-main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+  }
+  .faq-first-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    margin-top: 25px;
+  }
+
+  .faq-title-hero {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: 24px 0px;
+    width: 300px;
+  }
+  .faq-second-line {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #93a5b1;
+    width: 227px;
+    margin: 0px;
+  }
+  .faq-hero-firstbtn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 216px;
+    height: 48px;
+    background: #ec9a2b;
+    border-radius: 4px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+    margin-bottom: 49px;
+  }
+  .faq-hero-firstbtn1:hover {
+    color: #ec9a2b !important;
+    border-color: #ec9a2b !important;
+    background-color: #ffffff;
+  }
+  .faq-hero-firstbtn{
+    display: none;
+  }
+  .faq-position-hero {
+    margin-top: 10px;
+  }
+  .faq-desktop-img {
+    display: none;
+  }
+  .faq-mobile-img{
+    width: 100%;
+  }
+  .faq-heroSection {
+    background: #fcf9f3;
+    padding-top: 20px ;
+    /* height: 100vh; */
+  }
+}

@@ -1,0 +1,135 @@
+.slider-p {
+  
+  margin-top: 37px;
+}
+.slider-pp {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 145%;
+  text-align: center;
+  color: #043344;
+}
+.marquee {
+  overflow: hidden;
+}
+.sm-img {
+  display: none;
+}
+.marquee-content {
+  display: flex;
+  padding-top: 5px;
+  animation: scrolling 10s linear infinite;
+}
+.marquee-content:hover .opac {
+  opacity: 0.1;
+}
+.marquee-content .opac:hover {
+  opacity: 1;
+}
+.marquee-item {
+  flex: 0 0 12vw;
+  margin: 0 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marquee-item:hover {
+  transition: 3s all ease-in-out;
+  opacity: 100;
+}
+@media screen and (max-device-width: 580px) {
+  .marquee-item {
+    flex: 0 0 31vw;
+    margin: 0 3vw;
+  }
+}
+.marquee-item img {
+  display: block;
+  width: 75%;
+  height: 85%;
+}
+@keyframes scrolling {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-content:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.marquee-title {
+  opacity: 1;
+  color: #485159;
+  padding-top: 8px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 576px) {
+  .slider-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    text-align: center;
+    color: #043344;
+    width: 80% !important;
+    margin: auto;
+  }
+
+  .marquee {
+    display: none;
+  }
+  .sm-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .four-img{
+    width: 35%;
+    position: relative;
+    left: 25px;
+    top: 12px;
+  }
+  .sm-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .hala-sm-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20%;
+  }
+  .sm-sec img {
+    /* width: 125px; */
+  }
+  .slider-pp {
+    margin-bottom: 30px;
+    margin-top: 30px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+text-align: center;
+/* Brand/Dark */
+color: #043344;
+  }
+}

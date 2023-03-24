@@ -1,0 +1,146 @@
+.eight-container {
+  display: flex;
+  justify-content: center;
+  padding-right: 68px;
+}
+
+.eight-list {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.eight-list li {
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  color: #688192;
+  padding: 0;
+  
+font-family: 'Satoshi';
+}
+
+
+.eight-left-head-one {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a938a;
+  letter-spacing: 0.365em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.eight-left-head-one-tag {
+  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-left: 8%;
+}
+.eight-left-head-two {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #043344;
+  text-align: justify;
+    display: inline-block;
+}
+.eight-left-tag{
+  padding-top: 8%;
+}
+.eight-left-tag p {
+  margin: 0px;
+}
+
+.eight-icon {
+  padding-right: 2%;
+}
+.eight-left-tag-btn {
+  
+  font-family: 'Satoshi';
+  width: 225px;
+  height: 48px;
+  font-size: 18px;
+  background-color: #ffffff;
+  border: 2px solid #ec9a2b;
+  border-radius: 4px;
+  color: #ec9a2b;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-right: 86px;
+}
+.eight-left-tag-btn:hover {
+  cursor: pointer;
+}
+
+.eight-right-tag-img {
+  width: 93%;
+  margin-top: -5%;
+}
+.eight-respons-img{
+  display: none;
+}
+.eight-left-head-two-tag{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+@media screen and (max-width: 992px) {
+  .eight-left-head-one-tag {
+  
+    padding-left: 0%;
+  }
+  .eight-left-tag-btn {
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+    margin-right: 0;
+    margin-top: 3px;
+  }
+  .eight-left-head-two {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .eight-left-head-one {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .eight-left-head-two-tag br {
+    display: none;
+  }
+  .eight-container {
+    padding-right: 0;
+  }
+  .eight-respons-img{
+    display: block;
+  }
+  .eight-respons2-img {
+    display: none;
+  }
+  .eight-right-tag-img {
+    width: 90%;
+    margin-top: 0%;
+  }
+ 
+}
+@media screen and (max-width: 600px) {
+  .eight-left-head-two{
+    text-align: center;
+    display: block;
+    padding: 0% 12%;
+  }
+ 
+
+  .eight-left-head-one-tag {
+    margin-bottom: 15px;
+  }
+}

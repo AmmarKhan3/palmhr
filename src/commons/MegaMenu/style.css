@@ -1,0 +1,569 @@
+@media screen and (min-width:2000px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    width: 100%;
+    margin: auto;
+    padding-left: 385px;
+    padding-right: 325px;
+}
+  
+}
+@media screen and (max-width:2000px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    width: 100%;
+    margin: auto;
+    padding-left: 128px;
+    padding-right: 128px;
+    
+  }
+  
+}
+
+
+@media screen and (min-width: 993px) {
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .megamenuArrow {
+    /* margin-left: 167px; */
+  }
+  .list-div {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    justify-content: space-between;
+  }
+ 
+  .megamenuIcondiv {
+    display: flex !important;
+    gap: 17px;
+
+/* width: 187px; */
+
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 175.5%;
+/* identical to box height, or 35px */
+
+
+/* Brand/Dark */
+
+color: #043344;
+  }
+  .megamenuArrowDiv {
+    display: block !important;
+    width: 34px;
+    height: 34px;
+  }
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: #043344;
+
+    margin: 0;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #fcf9f3;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+    height: 410px;
+    /* top: 90px; */
+
+  }
+
+  .dropdown-content .header {
+    background-color: #fcf9f3;
+
+    color: #043344;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .megamenuData {
+    padding-left: 130px;
+    padding-right: 127px;
+    display: flex;
+    height: 300px;
+    padding-top: 40px;
+  }
+
+  .megaMenuDataWidth {
+    width: 100% !important;
+    display: flex !important;
+    height: 300px;
+  }
+
+  .megaMenuRow1 {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .megaMenuRow1,
+  .megaMenuCol1 {
+    width: 100%;
+    height: 300px;
+  }
+  .product-firstcol1 {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175.5%;
+    color: #1a938a;
+  }
+  .megaMenudiv1,
+  .megaMenudiv11 {
+    display: block !important;
+  }
+  .megaMenudiv1 {
+    border-bottom: 1px solid #d4dbe0;
+  }
+  .megaMenuul1 {
+    list-style: none;
+    padding: 0px;
+  }
+  .megaMenuul1 li {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175.5%;
+    color: #043344;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .megaMenuCol2 {
+    padding-left: 17px;
+  }
+  .megaMenuCol3 {
+    padding-left: 17px;
+  }
+  .megaMenuimage {
+    width: 387px;
+    /* height: 205px; */
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+  }
+  .megaMenudiv3311 {
+    display: flex !important;
+    /* justify-content: flex-start;
+    align-items: flex-start;
+    position: relative; */
+    /* left: -50px; */
+    /* right: 50px;
+    bottom: 14px; */
+  }
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #c28917;
+    height: 250px;
+  }
+
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .column a:hover {
+    background-color: #bd820c;
+  }
+
+  /* Clear floats after the columns */
+  /* .row{
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+  .h-text2 {
+    cursor: pointer;
+  }
+  .h9-css {
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+    margin-left: 57px;
+    margin-right: 100px;
+  }
+  .h10-css {
+    display: flex;
+    padding-left: 20px;
+    align-items: center !important;
+
+  }
+  .a {
+    color: black;
+  }
+  .h-css {
+    padding: 20px;
+  }
+  .header-mbl {
+    display: none;
+  }
+  .header-desktop {
+    display: contents;
+    width: 100%;
+    margin: auto;
+  }
+  .h-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Satoshi";
+    line-height: 145%;
+    padding-right: 25px;
+    color: #043344;
+  }
+  .h-drop {
+    padding-right: 15px;
+    padding-top: 15px;
+  }
+  .p-top {
+    padding-top: 5px;
+  }
+  .img-h2 {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 5px;
+  }
+  .span-h {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Satoshi";
+    line-height: 130%;
+    color: #1a938a;
+  }
+  .h-button {
+    border-radius: 4px;
+    width: 154px;
+    height: 36px;
+    font-family: "Satoshi";
+    margin-left: 34px;
+    color: #ffffff;
+    z-index: 2;
+    background: #1a938a;
+  }
+  .h-button:hover {
+    color: #ffffff !important;
+  }
+  .icon-c {
+    color: #93a5b1;
+  }
+  .col-h {
+    margin-bottom: 5px;
+  }
+  .h-text2 {
+    cursor: pointer;
+  }
+}
+
+
+nav a {
+  font-family: "Satoshi" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 1rem;
+  color: #043344;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #1a938a;
+}
+header .nav-btn {
+  visibility: hidden;
+  opacity: 0;
+}
+header div,
+nav {
+  /* display: none; */
+  /* align-items: center; */
+}
+.img-y {
+  width: 18px;
+  height: 18px;
+}
+:root {
+  --mainColor: #fcf9f3;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #db2b39;
+  --textColor: #eee;
+}
+.hide-css {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    padding-left: 33px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+  }
+  .megamenuIcondiv {
+    display: flex !important;
+    gap: 17px;
+  }
+  .megamenuArrowDiv {
+    display: block !important;
+  }
+  .list-div-mbl {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 1px;
+    justify-content: space-between;
+  }
+  .header-mbl {
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .header-desktop {
+    display: none;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    width: 100%;
+    margin: auto;
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+  .h9-css {
+    display: none !important;
+  }
+  .h10-css {
+    display: none !important;
+  }
+  .mbl-navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  header nav {
+    position: absolute;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+  header .responsive_nav {
+    transform: none;
+    padding-bottom: 30px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  nav .nav-close-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 0.5rem;
+    z-index: 1;
+  }
+  nav a {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-size: 1.5rem;
+  }
+  .ant-menu-light {
+    width: 100% !important;
+    color: #043344 !important;
+    background-color: #fcf9f3 !important;
+    margin-top: 34px;
+  }
+  .menu-header {
+    display: flex !important;
+    width: 100%;
+    position: relative;
+    top: 1.5rem;
+    left: 10px;
+  }
+  .ant-menu-inline.ant-menu-root .ant-menu-submenu-title {
+    padding-left: 14px !important;
+  }
+  .ant-menu .ant-menu-submenu-title .ant-menu-item-icon {
+    display: none !important;
+  }
+  .ant-menu-light.ant-menu-inline .ant-menu-item {
+    padding-left: 14px !important;
+  }
+  .ant-menu .ant-menu-item .ant-menu-item-icon {
+    display: none !important;
+  }
+  .calling {
+    display: flex !important;
+    width: 100%;
+    padding-left: 15px;
+    height: 5vh;
+    gap: 19px;
+    align-items: center;
+  }
+  .detail {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding-left: 15px;
+  }
+  .calling-p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #043344;
+  }
+  .detail-p {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 145%;
+    color: #043344;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  .lock-mbl {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 5vh;
+    gap: 16px;
+  }
+  .detail-pp {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 145%;
+    color: #043344;
+  }
+  .ant-menu-title-content {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 145%;
+    color: #043344;
+  }
+  .mbl-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    width: 343px;
+    height: 72px;
+    background: #1a938a;
+    border-radius: 8px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 145%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .ant-menu-inline .ant-menu-sub.ant-menu-inline {
+    padding-left: 11px;
+  }
+  /* .ant-menu-submenu-active .ant-menu-title-content {
+    color: #c28917 !important;
+  } */
+
+  .class-HRSoftware{
+    width: 116px;    
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 175.5%;
+    /* identical to box height, or 35px */
+    
+    
+    /* Brand/Primary */
+    
+    color: #1A938A;
+  }
+
+ 
+}
+.h-text2 {
+  text-decoration: none;
+}
+.h-text:hover {
+  color: #1a938a !important;
+}
+.h-tell {
+  text-decoration: none;
+  padding-left: 5px;
+}
+.imh-t {
+  position: relative;
+  left: 4px;
+  top: 2px;
+}

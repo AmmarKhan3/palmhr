@@ -1,0 +1,88 @@
+@media screen and (min-width: 993px) {
+  .pricing-2Green-Height {
+    height: 270px;
+    width: 100%;
+    background: #1a938a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-2Green {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-2title {
+    width: 943px;
+    /* height: 54px; */
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135.5%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  .pricing-2descrypt {
+    width: 700px;
+    /* height: 64px; */
+    margin-top: 0px;
+
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180.5%;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 992px) {
+  .pricing-2Green-Height {
+    width: 100%;
+    background: #1a938a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-2Green {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-2title {
+
+width: 311px;
+
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 135.5%;
+/* or 43px */
+
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+     
+  }
+  .pricing-2descrypt {
+    width: 100%;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180.5%;    
+    text-align: center;    
+    color: #FFFFFF;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 60px;
+  }
+}

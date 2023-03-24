@@ -1,0 +1,75 @@
+@media screen and (min-width: 993px) {
+  .pricing-4Green-Height {
+    height: 385px;
+    width: 100%;
+    background: #1a938a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-4Green {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-4title {
+    width: 943px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135.5%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  .pricing-4descrypt {
+    width: 1039px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180.5%;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 992px) {
+  .pricing-4Green-Height {
+    width: 100%;
+    background: #1a938a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-4Green {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-4title {
+    width: 311px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .pricing-4descrypt {
+    width: 100%;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180.5%;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 60px;
+  }
+}
